@@ -11,13 +11,13 @@
 *
 */
 
-exports.server = 'http://coreserver-psserver.a3c1.starter-us-west-1.openshiftapps.com';
+exports.server = 'coreserver-psserver.a3c1.starter-us-west-1.openshiftapps.com';
 //exports.server = 'sim.smogon.com';
 
-exports.port = 8080;
-//exports.port = 80;
+exports.port = 80;
 
-exports.serverid = 'smogonuniversity';
+exports.serverid = 'core';
+//exports.serverid = 'smogonuniversity';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;

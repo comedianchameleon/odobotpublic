@@ -11,8 +11,8 @@
 *
 */
 
-//exports.server = 'http://coretemp.scalingo.io';
-exports.server = 'sim.smogon.com';
+exports.server = 'http://coreserver-psserver.a3c1.starter-us-west-1.openshiftapps.com';
+//exports.server = 'sim.smogon.com';
 
 exports.port = 80;
 
